@@ -188,3 +188,11 @@ h6 {
           justify-content: space-between;
   padding: 24px;
 }
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
