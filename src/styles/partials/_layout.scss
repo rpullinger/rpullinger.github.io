@@ -1,0 +1,8 @@
+.wrapper{
+    min-height: 100vh;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: $base-unit;
+}

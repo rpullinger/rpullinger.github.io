@@ -1,0 +1,50 @@
+// TYPOGRAPHY
+
+// Base text
+body{
+    font-family: "Cardo", Georgia, serif;
+    font-size: $f-base;
+    color: $c-light;
+}
+
+
+
+
+// Standard Links
+a{
+    color: $c-brand;
+    text-decoration: none;
+
+    &:hover{
+        color: lighten($c-brand, 10%);
+    }
+}
+
+
+
+
+// Base Headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    padding: 0;
+    line-height: 1.1;
+    color: $c-brand;
+}
+
+h1{ font-size: $f-large; }
+h2{ font-size: $f-medium; }
+h3{ font-size: $f-base; }
+h4{ font-size: $f-base; }
+h5{ font-size: $f-base; }
+h6{ font-size: $f-base; }
+
+
+
+
+.showcase{
+    font-size: $f-xlarge;
+}

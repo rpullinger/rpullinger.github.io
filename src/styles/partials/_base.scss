@@ -1,0 +1,56 @@
+// BASE
+
+
+// Border Box all the things
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    background-image: linear-gradient(to right, #111, #222);
+}
+
+
+
+
+// Shared vertical rhythm - csswizardry.com/2012/06/single-direction-margin-declarations
+h1, h2, h3, h4, h5, h6, hgroup,
+ul, ol, dl,
+blockquote,p,address,
+table,
+fieldset,figure,
+pre,
+.g{
+    margin-top: 0;
+    margin-bottom: $base-unit;
+
+    &:last-child,
+    &.last{ // remove from last if required
+       margin-bottom: 0;
+    }
+}
+
+
+
+
+// Makes images responsive by default
+img{
+    display: inline-block;
+    max-width: 100%;
+}
+
+
+
+
+// Remove the border round images in IE
+a{
+    img{
+        border: 0;
+    }
+}

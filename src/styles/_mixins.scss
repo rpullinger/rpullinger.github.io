@@ -1,0 +1,8 @@
+// Mixins
+
+/*
+Super simple Mixin for the responsive stuff
+ */
+@mixin breakpoint($point){
+    @media (min-width: $point){ @content; }
+}
